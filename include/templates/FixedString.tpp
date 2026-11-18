@@ -27,13 +27,13 @@ namespace tbaricault::templates
     constexpr bool FixedString<N>::operator==(const FixedString<M>& other) const
     {
         if constexpr (N != M)
-            return (false);
+            return false;
         else
         {
             for (std::size_t i = 0; i < N; ++i)
                 if (data[i] != other.data[i])
-                    return (false);
-            return (true);
+                    return false;
+            return true;
         }
     }
 

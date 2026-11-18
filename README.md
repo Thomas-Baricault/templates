@@ -1,9 +1,9 @@
 # tbaricault::templates
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![C++23](https://img.shields.io/badge/C%2B%2B-23-blue)
-![CMake](https://img.shields.io/badge/CMake-3.20%2B-blue)
-![Header Only](https://img.shields.io/badge/header--only-yes-brightgreen)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
+![C++23](https://img.shields.io/badge/C%2B%2B-23-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Header Only](https://img.shields.io/badge/C%2B%2B-Header--Only-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-3.20%2B-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 
 ## Description
 
@@ -130,7 +130,7 @@ int main()
         {"b", 42},
         {"c", 37}
     });
-    return (0);
+    return 0;
 }
 ```
 
@@ -179,7 +179,7 @@ int main()
     test<A, B, C>();
     test<B, B, A>();
     test<B, C>();
-    return (0);
+    return 0;
 }
 ```
 
@@ -228,7 +228,7 @@ int main()
     test<"a">();
     test<"b">();
     test<"c">();
-    return (0);
+    return 0;
 }
 ```
 
@@ -274,7 +274,7 @@ int main()
     test<A<"test">, A<"abc">>();
     test<A<"abc">, A<"def">, A<"test">>();
     test<A<"abc">, A<"def">>();
-    return (0);
+    return 0;
 }
 ```
 
